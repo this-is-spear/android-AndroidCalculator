@@ -1,16 +1,5 @@
 # AndroidCalculator
 
-```mermaid
-  graph 
-    num --> id1_1((setInputNum))
-    operator --> id1_2((setInputOperator))
-    subgraph calculator
-    id1_1 --> inputNum --> id2((getResult))
-    id1_2 --> setOperator --> id2
-    end
-    id2 --> result
-    id2 --> cf(Calcuation fomula)
-```
 
 
 
